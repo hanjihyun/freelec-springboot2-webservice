@@ -2,7 +2,7 @@
 ### 스프링 부트와 AWS로 혼자 구현하는 웹 서비스
 ## 1. Gradle Project를 Spring boot Project로 변경하기
 
-## mavenCentral, jcentr
+## mavenCentral, jcentr 비교
 # mavenCentral
 - 저장소
 - 본인이 만든 라이브러리를 업로드하기 위해서 많은 설정 필요
