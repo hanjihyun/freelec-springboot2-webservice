@@ -11,7 +11,7 @@
 - 라이브러리 업로드 간단 
 - jcenter에 라이브러리를 업로드 하면 mavenCentral에도 업로드 될 수 있도록 자동화 가능
 
-
+## 2.3 - 2.4 롬복 소개, 설치, HelloController코드를 롬복으로 
 ## lombok (2021-01-18)
 - Getter, Setter, 기본생성자, toString등을 어노테이션으로 자동생성해준다.
 ### assertThat
