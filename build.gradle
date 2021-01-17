@@ -38,5 +38,17 @@ dependencies {
 //    자동완성 가능 -> compile 메소드 안에 라이브러리의 이름의 앞부분만 추가
 //    특정 버전을 명시하면 안된다 그래야 위 "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}" 버전을 따라감
     compile('org.springframework.boot:spring-boot-starter-web')
+
     testCompile('org.springframework.boot:spring-boot-starter-test')
+}
+dependencies {
+    annotationProcessor 'org.projectlombok:lombok'
+    implementation 'org.projectlombok:lombok'
+    testAnnotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.projectlombok:lombok'
+}
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
 }
