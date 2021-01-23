@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 //    HTTP Method인 Get의 요청을 받을 수 있는 API를 만들어 줍니다.
 //    예전에 @RequestMapping(method=RequestMethod.GET)으로 사용되었다.
-//    /hello로 요청이 오면 문자열 hello를 반환하는 기능을 기제
+//    /hello로 요청이 오면 문자열 hello를 반환하는 기능을 기제..
     @GetMapping("/hello")
     public String hello(){
         return "hello";
