@@ -47,6 +47,7 @@ dependencies {
     // : 여기선 JPA의 테스트, 로컬 환경에서의 구동에서 사용할 예정
     compile('com.h2database:h2')
     testCompile('org.springframework.boot:spring-boot-starter-test')
+    compile('org.springframework.boot:spring-boot-starter-mustache')
 }
 dependencies {
     annotationProcessor 'org.projectlombok:lombok'
